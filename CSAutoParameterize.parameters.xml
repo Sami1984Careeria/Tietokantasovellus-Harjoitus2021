@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="NorthwindEntities-Web.config Connection String" description="NorthwindEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.NorthwindModel.csdl|res://*/Models.NorthwindModel.ssdl|res://*/Models.NorthwindModel.msl;provider=System.Data.SqlClient;provider connection string='data source=smpnorthwindsrv.database.windows.net;initial catalog=Northwind;persist security info=True;user id=SamiAdmin;password=Historic66;MultipleActiveResultSets=True;App=EntityFramework'" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\samip\\source\\repos\\WebAppFirst\\WebAppFirst\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='NorthwindEntities']/@connectionString" />
+  </parameter>
+</parameters>
